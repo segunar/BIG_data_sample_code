@@ -64,12 +64,12 @@ def my_take(n, my_list):
 # ------------------------------------------
 # FUNCTION my_add
 # ------------------------------------------
-def my_add(x, y):
-    # 1. We create the variable to output
-    res = x + y
+# def my_add(x, y):
+#     # 1. We create the variable to output
+#     res = x + y
 
-    # 2. We return res
-    return res
+#     # 2. We return res
+#     return res
 
 # ------------------------------------------
 # FUNCTION add_one
@@ -147,17 +147,17 @@ def my_equal(x, y):
 # ------------------------------------------
 # FUNCTION my_map
 # ------------------------------------------
-def my_map(funct, my_list):
-    # 1. We create the output variable
-    res = []
+# def my_map(funct, my_list):
+#     # 1. We create the output variable
+#     res = []
 
-    # 2. We populate the list with the higher application
-    for item in my_list:
-        sol = funct(item)
-        res.append(sol)
+#     # 2. We populate the list with the higher application
+#     for item in my_list:
+#         sol = funct(item)
+#         res.append(sol)
 
-    # 3. We return res
-    return res
+#     # 3. We return res
+#     return res
 
 # ------------------------------------------
 # FUNCTION my_filter
@@ -367,6 +367,13 @@ def my_main(option):
         # 3. We return res
         return res
 
+    def my_add(x, y):
+        # 1. We create the variable to output
+        res = x + y
+
+        # 2. We return res
+        return res
+
     #---------------------------------
     # 3. PARTIAL APPLICATION
     #---------------------------------
@@ -413,7 +420,7 @@ if __name__ == '__main__':
         res = my_main(int(sys.argv[1]))
     # 2. If we run it via Pycharm
     else:
-        option = 11
+        option = 31
         res = my_main(option)
 
     # 3. We print the return value
