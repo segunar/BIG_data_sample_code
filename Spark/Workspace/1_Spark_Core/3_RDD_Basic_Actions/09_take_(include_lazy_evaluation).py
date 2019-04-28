@@ -101,7 +101,7 @@ def my_main(sc, my_dataset_dir, longitude, num_lines):
     # Does it sound ok?"
 
     # "Yes, it sound much better than computing myself entirely" - inputRDD replies-.
-    # "I know, lazy evaluation is great! Do you think all this story will make SDH4 students to understand lazy evaluation?
+    # "I know, lazy evaluation is great! Do you think all this story will make SDH4 and DWEB4 students to understand lazy evaluation?
     # or they might not even bother in reading this?" -filteredRDD wonders-.
     # "I don't know, it's a great story, so I give a 50%-50% chance. But, anyway, why do we care? We are only RDDs, so this
     # is not our business" -inputRDD finishes-.
